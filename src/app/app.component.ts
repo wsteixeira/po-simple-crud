@@ -15,5 +15,11 @@ export class AppComponent {
       link: '/home',
       shortLabel: 'Home',
     },
+    {
+      icon: 'po-icon po-icon-users',
+      label: 'Cadastro de Usuários',
+      link: '/user',
+      shortLabel: 'Usuários',
+    },
   ];
 }

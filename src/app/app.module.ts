@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { PoModule } from '@po-ui/ng-components';
 import { RouterModule } from '@angular/router';
 import { PoTemplatesModule } from '@po-ui/ng-templates';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

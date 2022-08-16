@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PoModule } from '@po-ui/ng-components';
 import { RouterModule } from '@angular/router';
+import { PoTemplatesModule } from '@po-ui/ng-templates';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     AppRoutingModule,
     PoModule,
-    RouterModule.forRoot([])
+    RouterModule.forRoot([]),
+    PoTemplatesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
